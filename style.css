@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    background-color: rgb(233, 209, 105);
+}
+
+#logo{
+    height: 130px;
+    display: inline-block;
+}
+
+#pageCenter{
+    text-align: center;
+}
+
+#sketchPad{
+    text-align: center;
+}
+
+button{
+    position: relative;
+    top: 100px;
+    display: inline-block;
+    color: white;
+    background-color: rgb(199, 48, 48);
+    width: 200px;
+    height: 100px;
+    font: bold;
+    font-size: 70px;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgb(131, 32, 32);
+}
